@@ -4,8 +4,6 @@
 
 ### [Zeeka Network Telegram](https://t.me/ZeekaNetworkTurkish) - [Zeeka Network Discord](https://discord.gg/jbtvXSP3)
 
-![image](https://user-images.githubusercontent.com/101149671/196889312-d1edc9bc-c0e3-4fd2-a3d1-15167c712dca.png)
-
 ## Gereksinimler:
 
  * Minimum gereksinimler yeterli olur
