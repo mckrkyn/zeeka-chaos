@@ -2,8 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/101149671/196880084-be318e37-979b-4c9e-bb14-5765ddcfc901.png)
 
-<h1 align="center"> Selamlar, beklenen gün sonunda geldi.. Bu rehbere alışıla gelmişten farklı başlayacağım. Aramıza yeni katılanlar olduğunu düşünüyor ve en yalın hali ile anlatıyorum.. </h1>
-
 ### [Zeeka Network Telegram](https://t.me/ZeekaNetworkTurkish) - [Zeeka Network Discord](https://discord.gg/jbtvXSP3)
 
 ![image](https://user-images.githubusercontent.com/101149671/196889312-d1edc9bc-c0e3-4fd2-a3d1-15167c712dca.png)
