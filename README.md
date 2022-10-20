@@ -8,14 +8,6 @@
 
 ![image](https://user-images.githubusercontent.com/101149671/196889312-d1edc9bc-c0e3-4fd2-a3d1-15167c712dca.png)
 
-# Öncelikle, yeni başladıysanız Node nedir? Sanal sunucu nedir? Nasıl kullanılır ve Sunucuya nasıl bağlanılır onları öğrenmelisiniz:
-
- * Sunucu ve Node Kurulumu Temel Bilgiler: [Link](https://is.gd/sunucuvenode)
- * Node Kurmak İstiyorum Nasıl Başlarım?: [Link](https://forum.rues.info/index.php?threads/node-kurmak-istiyorum-nasil-baslarim.2384/)
- * Daha fazla bilgi [discord kanalımda](discord.gg/ruescommunity) yeni başladım ve sunucu-node bilgileri odasında mevcut.
- * Sorularınız varsa: [Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat)
- * Şimdi sunucunuzu temin ettiyseniz node kurulumuna geçelim. Evet ödüllü..
- 
 ## Gereksinimler:
 
  * Minimum gereksinimler yeterli olur
@@ -58,11 +50,11 @@ cargo install --path .
 ```
 ## Burdan sonrası dikkatli okuyalım:
 
- * Bu komutta sadece `RUESSEED` dediğim yeri değiştirin ve bunu kaydedin, bu sizin seediniz
+ * Bu komutta sadece `muck` dediğim yeri değiştirin ve bunu kaydedin, bu sizin seediniz
  * Nodu bir gün taşımak isterseniz bu `SEED` ile nodu kuracaksınız.
 
 ```
-bazuka init --seed RUESSEED --network chaos --node 127.0.0.1:8765
+bazuka init --seed muck --network chaos --node 127.0.0.1:8765
 ```
 
 ## Şimdi nodumuzu farklı screende çalıştıralım:
@@ -72,13 +64,13 @@ screen -S bazuka
 ```
 
  * Burada 2 kısım değiştirelecek ve yeni açılan screen (pencere) içersine girilecek
- * Birinci kısım external kısmında ki `123.123.123` diye örnek verdiğim kısma IP numaranızı girin, sonda ki `8765` kalacak o port numarası.
- * İkinci kısım `--discord-handle "rues#1234"` discordunuzu girin, zeeka'nın discordunda olduğunuzdan emin olun.
+ * Birinci kısım external kısmında ki `543.543.543` diye örnek verdiğim kısma IP numaranızı girin, sonda ki `8765` kalacak o port numarası.
+ * İkinci kısım `--discord-handle "earlmck#2987"`iscordunuzu girin, zeeka'nın discordunda olduğunuzdan emin olun.
 
 ```
 bazuka node --listen 0.0.0.0:8765 --external 123.123.123:8765 \
   --network chaos --db ~/.bazuka-chaos --bootstrap 152.228.155.120:8765 \
-  --discord-handle "rues#1234"
+  --discord-handle "earlmck#2987"
 ```
 
 ## Daha sonra görselde ki gibi çıktı alacaksınız:
